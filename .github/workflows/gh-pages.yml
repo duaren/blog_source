@@ -1,6 +1,11 @@
 
 name: hugo CI
 
+permissions:
+  repository-projects: write
+  actions: write
+  deployments: write
+
 on:
   push:
     branches: [ master ]
